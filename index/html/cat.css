@@ -1,0 +1,42 @@
+.en-tete{
+  background-color: #091b3b; 
+  color: black;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sous-en-tete{
+  background-color: #e0ecff;
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  gap: 105px;
+}
+
+.pied-de-page{
+  background-color: #040e1f;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.image-de-vetements{
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+    gap: 40px  
+}
+
+body {
+  margin: 0;
+}
+a {
+    color: inherit;        
+    text-decoration: none; 
+}
